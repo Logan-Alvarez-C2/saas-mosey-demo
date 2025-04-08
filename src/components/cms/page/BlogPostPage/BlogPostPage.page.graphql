@@ -1,0 +1,10 @@
+fragment BlogPostPageData on BlogPostPage {
+  Heading
+  ArticleSubHeading
+  Topic
+  BlogPostBody { json, html }
+  ArticleAuthor
+  BlogPostPromoImage { ...ReferenceData }
+  continueReading { ...BlockData }
+  SeoSettings { ...PageSeoSettingsPropertyData }
+}

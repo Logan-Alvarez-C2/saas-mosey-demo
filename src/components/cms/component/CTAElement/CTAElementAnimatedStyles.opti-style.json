@@ -1,0 +1,138 @@
+{
+  "key": "CTAElementAnimatedStyles",
+  "displayName": "Animated / Fade-In",
+  "contentType": "CTAElement",
+  "isDefault": false,
+  "settings": {
+    "buttonType": {
+      "displayName": "Button type",
+      "editor": "",
+      "sortOrder": 10,
+      "choices": {
+        "primary": {
+          "displayName": "Primary [default]",
+          "sortOrder": 10
+        },
+        "secondary": {
+          "displayName": "Secondary",
+          "sortOrder": 20
+        },
+        "link": {
+          "displayName": "Link",
+          "sortOrder": 30
+        }
+      }
+    },
+    "buttonColor": {
+      "displayName": "Button color",
+      "editor": "",
+      "sortOrder": 20,
+      "choices": {
+        "default": {
+          "displayName": "Default",
+          "sortOrder": 10
+        },
+        "light": {
+          "displayName": "Light",
+          "sortOrder": 20
+        },
+        "dark": {
+          "displayName": "Dark",
+          "sortOrder": 30
+        }
+      }
+    },
+    "buttonVariant": {
+      "displayName": "Button variant",
+      "editor": "",
+      "sortOrder": 30,
+      "choices": {
+        "default": {
+          "displayName": "Plain [default]",
+          "sortOrder": 10
+        },
+        "cta": {
+          "displayName": "With color accent",
+          "sortOrder": 20
+        }
+      }
+    },
+    "buttonAlign": {
+      "displayName": "Align button",
+      "editor": "",
+      "sortOrder": 40,
+      "choices": {
+        "auto": {
+          "displayName": "Auto [default]",
+          "sortOrder": 10
+        },
+        "left": {
+          "displayName": "Left",
+          "sortOrder": 20
+        },
+        "center": {
+          "displayName": "Center",
+          "sortOrder": 30
+        },
+        "right": {
+          "displayName": "Right",
+          "sortOrder": 40
+        }
+      }
+    },
+    "delay": {
+      "displayName": "Animation delay",
+      "editor": "selectOne",
+      "sortOrder": 100,
+      "choices": {
+        "none": {
+          "displayName": "None",
+          "sortOrder": 10
+        },
+        "short": {
+          "displayName": "Short (0.5s)",
+          "sortOrder": 20
+        },
+        "medium": {
+          "displayName": "Medium (1s)",
+          "sortOrder": 30
+        },
+        "long": {
+          "displayName": "Long (1.5s)",
+          "sortOrder": 40
+        },
+        "verylong": {
+          "displayName": "Very long (2s)",
+          "sortOrder": 50
+        }
+      }
+    },
+    "duration": {
+      "displayName": "Animation duration",
+      "editor": "selectOne",
+      "sortOrder": 110,
+      "choices": {
+        "none": {
+          "displayName": "None",
+          "sortOrder": 10
+        },
+        "short": {
+          "displayName": "Short (0.5s)",
+          "sortOrder": 20
+        },
+        "medium": {
+          "displayName": "Medium (1s)",
+          "sortOrder": 30
+        },
+        "long": {
+          "displayName": "Long (1.5s)",
+          "sortOrder": 40
+        },
+        "verylong": {
+          "displayName": "Very long (2s)",
+          "sortOrder": 50
+        }
+      }
+    }
+  }
+}

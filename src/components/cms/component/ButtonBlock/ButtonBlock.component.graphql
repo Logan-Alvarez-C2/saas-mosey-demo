@@ -1,0 +1,7 @@
+fragment ButtonBlockData on ButtonBlock {
+  ButtonText
+  ButtonUrl { ...LinkData }
+  ButtonClass
+  ButtonType
+  ButtonVariant
+}
